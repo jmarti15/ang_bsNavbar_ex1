@@ -19,7 +19,7 @@ app.get('/api/clients', function(req, res){
                { codi:'666', nom:'cli6', tels:[] },
                { codi:'777', nom:'cli7', tels:[] },
                { codi:'888', nom:'cli8', tels:[] },
-               { codi:'99901', nom:'cli9', tels:[] }
+               { codi:'99902', nom:'cli9', tels:[] }
               ] );
 });
 
