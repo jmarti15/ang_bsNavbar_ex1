@@ -1,0 +1,40 @@
+    <h1>Informació de clients:</h1>
+
+    <!-- També ho podem cridar des del controlador clientsCtrl, just després de definir la funció, fent: $scope.descargaArchivo(); -->
+    <div ng-init="descargaArchivo();">
+
+<!--  Així mostraríem tot el contingut de clientList:   -->
+<!--    <p><h3>Scope clients:</h3> {{clientList}}</p>   -->
+
+<!--      Així desglosem la informació:                  -->
+<!--
+    <div ng-repeat="client in clientList">
+      <p>#{{$index + 1}} - {{client.codi}}, {{client.nom}}</p>
+      <ul>
+        <li ng-repeat="tel in client.tels">{{tel.tidx}}: {{tel.tnum}}</li>
+      </ul>
+    </div>            -->
+
+      <table class="table table-striped table-hover table-condensed">
+        <thead>
+          <td>A</td>
+          <td>B</td>
+          <td>C</td>
+          <td>D</td>
+        </thead>
+        <tbody>
+          <tr ng-repeat="client in clientList">
+            <th>#{{$index + 1}}</th>
+            <td>{{client.codi}}</td>
+            <td>{{client.nom}}</td>
+            <td><ul><li ng-repeat="tel in client.tels">{{tel.tidx}}: {{tel.tnum}}</li></ul></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- Cridem la funció descargaArchivo() que tenim definida al controlador MyController del mòdul MyApp: -->
+      <button ng-click="descargaArchivo()">Actualitzar</button>
+
+      <script type="text/javascript">
+      </script>
+    </div>

@@ -1,0 +1,22 @@
+/*
+body
+  padding: 50px
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+a
+  color: #00B7FF
+*/
+.titularpeq {
+  color: #f00;
+}
+.titularpeq2 {
+  font-size: 20px;
+}
+.titulargran {
+  color: #008000;
+}
+.positiu {
+  color: #00f;
+}
+.negatiu {
+  color: #f00;
+}

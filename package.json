@@ -1,0 +1,24 @@
+{
+  "name": "ang_bsNavbar_ex1",
+  "version": "1.0.0",
+  "description": "Exemple 1 d'angular i bootstrap (navbar)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jmarti15/ang_bsNavbar_ex1.git"
+  },
+  "author": "Jordi Martí",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmarti15/ang_bsNavbar_ex1/issues"
+  },
+  "homepage": "https://github.com/jmarti15/ang_bsNavbar_ex1",
+  "dependencies": {
+    "express": "^4.12.0",
+    "morgan": "^1.5.1",
+    "path": "^0.11.14"
+  }
+}
